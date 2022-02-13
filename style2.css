@@ -1,0 +1,46 @@
+
+div{
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+   background: #DB5461;
+   padding:10px;
+   
+   text-align: center;
+   font-weight:lighter;
+}
+
+h3{
+   text-align: center;
+   padding:10px;
+   border:1px solid black;
+   box-sizing: border-box;
+   color:#171738;
+ 
+}
+h3:hover{
+   box-shadow: 6px 9px 5px 0px rgba(223, 160, 160, 0.75);
+   -webkit-box-shadow: 6px 9px 5px 0px rgba(238, 146, 146, 0.75);
+   -moz-box-shadow: 6px 9px 5px 0px rgba(238, 150, 150, 0.75);
+}
+
+p{
+   text-align: left;
+}
+
+.three{
+   text-align:center;
+}
+.basket{
+  background:url("./basket.jpg");
+  float:right;
+  border-radius: 10%;
+  
+}
+
+.graph{
+   background: url("./graph.jpg");
+   float:left;
+   border-radius: 10%;
+}
